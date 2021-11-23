@@ -16,12 +16,12 @@
     font-size: 20px;
 } */
 
-/* ul.notanimes li img{
+ul.notanimes li img{
     width: 100%;
-    height: 500px;
+    height: 50%;
     object-fit: cover;
     object-position: bottom;
-} */
+}
 .notable{
     margin: 1.5% 0%;
 }
