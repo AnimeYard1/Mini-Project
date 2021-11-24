@@ -17,7 +17,6 @@ h1{
 
 .line_bar i{
     float: right;
-    display: flex;
 }
 
 .player-container{
