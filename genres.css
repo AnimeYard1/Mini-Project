@@ -16,12 +16,18 @@
     font-size: 20px;
 } */
 
-ul.notanimes li img{
+li img{
     width: 100%;
     height: 50%;
     object-fit: cover;
     object-position: bottom;
 }
+
+/* .notanimes :nth-child(odd){
+    padding: 5% auto ;
+    object-position: bottom;
+} */
+
 .notable{
     margin: 1.5% 0%;
 }
@@ -32,10 +38,10 @@ ul.notanimes li img{
 .section-header{ position:relative; }
 h2.section-header span{ position:absolute; top:-60px;}
 
-li img{
+/* li img{
     height: 60%;
     width: 680px;
-}
+} */
 .define{
     margin: 1% 2.5%;
 }

@@ -1,0 +1,70 @@
+h1{
+    padding-left: 20px;
+    text-transform: uppercase;
+    /* font-size: 1.5rem; */
+    font-weight: 700;
+    border-left: 4px solid var(--main-color);
+    display: flex;
+    align-items: center;
+}
+
+.line_bar{
+    /* background-color: black; */
+    padding: 1%;
+    font-size: 1.3rem;
+}
+
+.player-container{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 80%;
+    height: auto;
+}
+
+video{
+    max-width: 1240px;
+    min-width: 300px;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.episodes h3{
+    background-color: black;
+    position: relative;
+    top: -10px;
+
+}
+/* .episodes{
+    background-color: black;
+} */
+.episodes ul{
+    list-style: none;
+    width: 100%;
+    height: 150px;
+    overflow-y: scroll;
+}
+
+.episodes ul::-webkit-scrollbar{
+    display: none;
+}
+
+.episodes ul li{
+    width: 40px;
+    padding: 2px auto;
+    margin: 2px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+
+/* width */
+
+/* .vid_player{
+    margin: 2% auto;
+} */

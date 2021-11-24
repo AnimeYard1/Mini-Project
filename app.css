@@ -207,7 +207,10 @@ a.movie-item:hover {
 
 .hero-slide-item img {
     width: 100%;
+    height: auto;
     position: absolute;
+    object-fit: cover;
+    object-position: bottom;
     top: 0;
     left: 0;
 }

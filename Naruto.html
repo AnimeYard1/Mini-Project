@@ -5,6 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="naruto.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
         <!-- NAV -->
@@ -15,10 +27,9 @@
                         <i class='bx bx-movie-play bx-tada main-color'></i>An<span class="main-color">i</span>me<span class="main-color">Y</span>ard
                     </a>
                     <ul class="nav-menu" id="nav-menu">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="genre.html">Genre</a></li>
                         <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">About</a></li>
                         <li>
                             <a href="signup.html" class="btn btn-hover">
                                 <span>Sign in</span>
@@ -34,67 +45,49 @@
         </div>
         <!-- END NAV -->
 
+        <h1>Naruto</h1>
+        <div class="player-container">
+            <div class="line_bar">Internal Player
+                <i class="fal fa-toggle-off"></i>
+                <i class="fas fa-toggle-on"></i>
+                <i class="fas fa-forward"></i>
+                <i class="fas fa-download"></i>
 
-
-         <!-- FOOTER SECTION -->
-    <footer class="section" id="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-md-6 col-sm-12">
-                    <div class="content">
-                        <a href="#" class="logo">
-                            <i class='bx bx-movie-play bx-tada main-color'></i>An<span class="main-color">i</span>me<span class="main-color">Y</span>ard
-                        </a>
-                        <p>
-                            AnimeYard is Streaming service that offers a wide varity of award-winning animes and more on thousands of internet-connected devices. You can watch as much, whenever you want without a single commerical - all for free,you just have to vist the site and just check what type of anime you want to watch.
-                        </p>
-                    
-                    </div>
-                </div>
-                <div class="col-8 col-md-6 col-sm-12">
-                    <div class="row">
-                        <div class="col-3 col-md-6 col-sm-6">
-                            <div class="content">
-                                <p><b>AnimeYard</b></p>
-                                <ul class="footer-menu">
-                                    <li><a href="https://www.facebook.com/kenkirishimaa" target="_blank">Facebook</a></li>
-                                    <li><a href="https://www.instagram.com/annimotivation/" target="_blank">Instagram</a></li>
-                                    <li><a href=mailto:prashant.kumar1_cs19@gla.ac.in>E-Mail</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-3 col-md-6 col-sm-6">
-                            <div class="content">
-                                <p><b>Browse</b></p>
-                                <ul class="footer-menu">
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">My profile</a></li>
-                                    <li><a href="#">Contacts</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-3 col-md-6 col-sm-6">
-                            <div class="content">
-                                <p><b>Help</b></p>
-                                <ul class="footer-menu">
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">My profile</a></li>
-                                    <li><a href="#">Contacts</a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+            </div>    
+            <div class="vid_player">
+                <video controls>
+                    <source src="./Videos/Naruto/Naruto - 001 (2).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video>
+                    <!-- <iframe src="https://youtu.be/-MOCT1hbUHM" frameborder="0" height="500px" width="500pox"></iframe> -->
+            </div>
+            <div class="episodes">
+                <h3>Episodes</h3>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                    <li>11</li>
+                    <li>12</li>
+                </ul>
             </div>
         </div>
-    </footer>
-    <!-- END FOOTER SECTION -->
 
-    <!-- COPYRIGHT SECTION -->
-    <div class="copyright">
-        Copyright 2021 © AnimeYard
-    </div>
-    <!-- END COPYRIGHT SECTION -->
+
+
+    <!-- SCRIPT -->
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- OWL CAROUSEL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <!-- APP SCRIPT -->
+    <script src="app.js"></script>
 </body>
 </html>
