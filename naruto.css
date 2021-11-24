@@ -10,13 +10,14 @@ h1{
 
 .line_bar{
     background-color: black;
-    padding: 1%;
+    padding: 0.5%;
     margin-bottom: 5px;
     font-size: 1.3rem;
 }
 
 .line_bar i{
     float: right;
+    padding: 2px 5px;
 }
 
 .player-container{
