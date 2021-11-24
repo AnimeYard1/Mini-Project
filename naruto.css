@@ -9,9 +9,15 @@ h1{
 }
 
 .line_bar{
-    /* background-color: black; */
+    background-color: black;
     padding: 1%;
+    margin-bottom: 5px;
     font-size: 1.3rem;
+}
+
+.line_bar i{
+    float: right;
+    display: flex;
 }
 
 .player-container{
