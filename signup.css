@@ -29,7 +29,7 @@ body {
 
 .contain_box{
     width: 100% ;
-    max-width: 500px;
+    max-width: 400px;
     /* margin: 50px auto 0px auto ; */
     margin: auto;
     margin-top: 80px;
