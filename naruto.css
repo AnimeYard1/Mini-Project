@@ -74,10 +74,27 @@ video{
     overflow-y: scroll;
 }
 .button{
-    margin: 2px;
-    padding-right: 15px;
+    margin: 3px;
+    margin:13px 6px;
+    padding: 18px;
+    padding-bottom: 10px;
     background-color:black;
-    color: white;
+    color:#c0392b;
+    /* border: 2px solid #c0392b;
+    border-radius: 5px; */
+
+}
+#episodeno{
+    display: inline;
+    padding-right: 3px;
+    border-right:2px solid grey ; 
+}
+.line_bar span{
+    padding-left: 5px;
+}
+.button:hover{
+    background-color: rgb(165, 22, 22);
+    color: black;
 }
 
 .episodes ul::-webkit-scrollbar{
