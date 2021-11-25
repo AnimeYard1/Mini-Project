@@ -28,6 +28,27 @@ h1{
     width: 80%;
     height: auto;
 }
+.embed-youtube {
+    position: relative;
+    padding-bottom: 56.25%; /* - 16:9 aspect ratio (most common) */
+    /* padding-bottom: 62.5%; - 16:10 aspect ratio */
+    /* padding-bottom: 75%; - 4:3 aspect ratio */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.embed-youtube iframe,
+.embed-youtube object,
+.embed-youtube embed {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 video{
     max-width: 1240px;
@@ -38,7 +59,6 @@ video{
 }
 .episodes h3{
     background-color: black;
-    margin-top: 5px;
     position: relative;
     top: -10px;
 
@@ -48,20 +68,26 @@ video{
 } */
 .episodes ul{
     list-style: none;
+    margin-left: 20px;
     width: 100%;
     height: 150px;
     overflow-y: scroll;
+}
+.button{
+    margin: 2px;
+    padding-right: 15px;
+    background-color:black;
+    color: white;
 }
 
 .episodes ul::-webkit-scrollbar{
     display: none;
 }
 
-.episodes ul li{
-    width: 10%;
-    max-width: 80px;
+.episodes ul button{
+    width: 50px;
     padding: 2px auto;
-    margin: 1px 2px;
+    margin: 2px;
     border: 1px solid black;
     background-color: black;
     color: white;
